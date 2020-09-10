@@ -1,0 +1,147 @@
+/* ------------------------------------- */
+/* BASIC SETUP */
+/* ------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;   
+}
+
+.row {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* ------------------------------------- */
+/* Header */
+/* ------------------------------------- */
+
+header {
+    height: 175px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.col {
+    height: 175px;
+    display: block;
+    float: left;
+}
+.span-1-of-2 {
+    width: 50%;
+}
+
+.box:first-child {
+    text-align: right;
+    padding-top: 20px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 105px;
+    padding-left: 10px;
+    margin-right: 0;
+    text-align: left;
+}
+
+.how-to {
+    text-align: center;
+}
+
+p {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+/* ------------------------------------- */
+/* Form */
+/* ------------------------------------- */
+
+form {
+    margin-top: 100px;
+    text-align: center;
+}
+
+input {
+    text-align: left;
+    padding-left: 5px;
+}
+
+label {
+    color: red;
+}
+
+form p {
+    padding: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* ------------------------------------- */
+/* PokeDex */
+/* ------------------------------------- */
+
+.pokedex {
+    position: relative;
+    display: inline-block;
+    width: 750px;
+}
+
+.pokemon {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 380px;
+    top: 610px;
+    background: #25CCF7;
+    max-width: 190px;
+    max-height: 135px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 3px;
+    border-radius: 6px;
+    border: 10px black solid;
+}
+
+.pokemon img {
+    max-height: 90px;
+}
+
+.pokemon .name {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: black;
+}
+
+.details {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 342px;
+    right: 0px;
+    top: 590px;
+    background: #353b48;
+    max-width: 252px;
+    height: 65px;
+    padding: 15px;
+    padding-top: 6px;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    word-spacing: 5px;
+}

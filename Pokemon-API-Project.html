@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", inital-scale=1.0>
+
+        <title>PokeAPI</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="PokeStyle.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class='col span-1-of-2 box'>
+            <img class="logo" src="content/800px-International_Pokémon_logo.svg.png">
+            </div>
+            
+            <div class='col span-1-of-2 box'>
+            <h1>Information Generator!</h1>
+            </div>
+
+            <div class="how-to">
+                <p>Tell us your favorite pokemon name, and our PokeDex will tell you their details</p>
+            </div>
+        </header>
+
+        <form class="form">
+            <label for="input">Pokemon Name:</label>
+            <input type="text" id="myText" value="Pikachu"><br>
+            <p>(ex. squirtle, jigglypuff, wailord) Then click the button below!</p>
+            <button type="button" onclick="myFunction()">Caught 'Em!</button>
+        </form>
+        
+        <section>
+        <div class="row">
+
+            <img class="pokedex" src="content/pokedex.jpg">
+
+        </div>
+        </section>
+
+        <div class="pokemon"></div>
+        <div class="pokemon-details"></div>
+
+
+        <script src="PokeScript.js"></script> 
+
+    </body>
+
+
+</html>
